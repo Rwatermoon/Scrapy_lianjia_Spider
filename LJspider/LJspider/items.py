@@ -19,4 +19,6 @@ class LjspiderItem(scrapy.Item):
     location = scrapy.Field()
     total_price=scrapy.Field()
     single_price=scrapy.Field()
+    claw_time=scrapy.Field()
+    geo_location=scrapy.Field()
     pass
